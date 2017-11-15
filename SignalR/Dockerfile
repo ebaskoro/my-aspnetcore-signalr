@@ -11,4 +11,4 @@ FROM microsoft/aspnetcore:2.0
 WORKDIR /app
 
 COPY --from=build /app/out .
-ENTRYPOINT [ "dotnet", "Api.dll" ]
+ENTRYPOINT [ "dotnet", "SignalR.dll" ]
